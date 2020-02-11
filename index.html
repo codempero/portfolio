@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>introduction in html</title>
+    <title>introduction in html_css</title>
+    <link rel="stylesheet"type="text/css" href="css/css/style.css">
+
 </head>
 
 <body>
-    <h1>MY HTML INTRODUCTION 1</h1>
-    <P>Another common use of the non-breaking space is to prevent browsers Another
-        <br> common use of the  non-breaking space is to prevent browsers from truncating spaces in HTML pages. If you
+    <div id="header">
+        <h1>MY HTML INTRODUCTION 1</h1>
+    </div>
+
+    <div id="story">
+        <p>Another common use of the non-breaking space is to prevent browsers Another
+        <br> common use of the  non-breaking space is to prevent<br> browsers from truncating spaces in HTML pages. If you
         <em>write 10 spaces
-            <strong>in your text, the browser>
+            <strong>in your text, the browser><br>
             </strong> will remove 9 of </em>them.
-        <br> To add real spaces to your text, you can use the &nbsp; character entity. <The non-breaking hyphen (&#8209;) lets
+        <br> To add real spaces to your text, you can use the &nbsp; <br>
+        character entity.The non-breaking hyphen (&#8209;) lets
         you use a hyphen character () that
-        <br> won't break. from
-        <q> spaces in HTML pages. <blockquote>If you write 10 spaces</blockquote> in your text,</q> the browser will remove 9 of
-        <br> them. To  real spaces to your text, you can use the &nbsp; character entity. The non-breaking hyphen (&#8209;)
+         won't break. from
+        <q> spaces in HTML pages. <blockquote>If you write 10 spaces </blockquote> in your text,</q> the browser will remove 9 of
+        them. To  real spaces to your text, you can use the <br> &nbsp; character entity. The non-breaking hyphen (&#8209;)
         lets you use a hyphen character () that won't break.
-    </P>
-    <div>
+        </p>
+
+    </div>
+
+
+    <div id="table">
         <hr>
         <!-- <table> -->
 
@@ -65,11 +76,11 @@
 
         </ol>
     </div>
-    <div>
+    <div id="list" >
         <hr>
         <!-- <un ordered item -->
         <ul>
-            <h1>my un ordered item</h1>
+            <h1 id="item">my un ordered item</h1>
             <li>rice</li>
             <li>beans</li>
             <li>yam</li>
@@ -78,20 +89,10 @@
 
     </div>
      
-    <div>
-       <img src="images/hydra.jpg" style="width:60px; height:80px">
+    <div >
+       <img src="images/hydra.jpg" id="image">
     </div>
-    <div>
-        <form action="method">
-
-            <input type="text" placeholder="enter your name">
-            <input type="number" placeholder="enter your number">
-            <input type="email" placeholder="enter your emial">
-        </form>
-    </div>
-
-
-
+    
 </body>
 
 </html>

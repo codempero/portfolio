@@ -1,0 +1,42 @@
+
+    body{
+    background-image: url("../../images/hydra.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+    }
+#header{
+    background-color: blue;
+    text-align:center;
+    font-size: 30;
+    color:white;
+    width:auto;
+    height:auto;
+}
+
+
+#table{
+        width:100px;height:30px;
+    }
+    #story{
+        color:rgb(200,0,0);
+        font-style:verdana;
+}
+#item{
+   font-size:40px;
+   text-align:center;
+   background-color:red;
+   color:whitesmoke;
+}
+#image{
+    width:100px; 
+    height:100px;
+    
+}
+#list{
+  margin:20px;
+  font-family:Times New Roman;
+  font-size:40px; 
+}
+    

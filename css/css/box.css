@@ -1,0 +1,58 @@
+/*#list1{
+    color:red; 
+     padding: 25px 50px 75px 300px;
+}
+#list2{
+    color:green;
+}
+#list3{
+    color:black;
+}
+#list4{
+    color:white;
+    background-color:blue; 
+}
+.list{
+    background-color:yellow;
+    border:2px solid red ;
+    margin: 25px 50px 75px 100px;
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}*/
+
+.list{
+  width: 300px;
+  border: 2px solid green;
+  padding: 50px;
+  margin: 20px;
+  outline:10px solid red;
+
+}
+ /* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+  border:2px solid black;
+  padding:2px 15px 2px 15px;
+  margin:5px;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+} 
